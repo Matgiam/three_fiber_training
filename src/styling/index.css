@@ -1,3 +1,30 @@
-html{
-  background-color: black;
+html {
+	background-color: black;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.wrapper {
+	width: 100vw;
+	height: 100vh;
+}
+
+ul {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+ul li {
+	list-style: none;
+}
+
+.navigation a {
+	font-size: 3vw;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 3.5vw;
+	color: white;
+  display: flex;
+	justify-content: center;
 }
