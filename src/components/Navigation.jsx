@@ -7,16 +7,18 @@ function Navigation() {
 		<div className="navigation">
 			<ul>
 				<li>
-					<Link to="/model">3D model</Link>
+					<Link to="/model">Lights</Link>
 				</li>
 				<li>
-					<Link to="/model">3D model</Link>
+					<Link to="/model">Textures</Link>
 				</li>
 				<li>
-					<Link to="/model">3D model</Link>
+					<Link to="/model">Loading 3D model</Link>
 				</li>
 			</ul>
-            <h1>THREE FIBER DEMO</h1>
+			<Link to="/">
+				<h1>THREE FIBER DEMO</h1>
+			</Link>
 		</div>
 	);
 }

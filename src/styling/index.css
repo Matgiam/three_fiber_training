@@ -3,11 +3,6 @@ html {
 	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-.wrapper {
-	width: 95vw;
-	height: 50vh;
-}
-
 ul {
 	display: flex;
 	justify-content: center;

@@ -20,8 +20,8 @@ function Home() {
 		);
 	};
 	return (
-		<div className="wrapper">
-			<Canvas camera={{ position: [0, 0, 1.4], fov: 75 }}>
+		<div>
+			<Canvas camera={{ position: [0, 0, 2], fov: 75 }} style={{ width: "100vw", height: "100vh" }}>
 				<OrbitControls enableRotate={true} />
 				<directionalLight color={"#890ca1"} position={[1, 1, 1]} />
 
