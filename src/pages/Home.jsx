@@ -15,13 +15,13 @@ function Home() {
 		return (
 			<mesh ref={ref}>
 				<boxGeometry args={[1, 1, 1]} />
-				<meshLambertMaterial color={"#db0cdb"} />
+				<meshBasicMaterial color={"#db0cdb"} />
 			</mesh>
 		);
 	};
 	return (
 		<div className="wrapper">
-			<Canvas camera={{ position: [0, 0, 1.4], fov: 100 }}>
+			<Canvas camera={{ position: [0, 0, 1.4], fov: 75 }}>
 				<OrbitControls enableRotate={true} />
 				<directionalLight color={"#890ca1"} position={[1, 1, 1]} />
 

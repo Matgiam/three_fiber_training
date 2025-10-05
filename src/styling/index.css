@@ -4,8 +4,8 @@ html {
 }
 
 .wrapper {
-	width: 100vw;
-	height: 100vh;
+	width: 95vw;
+	height: 50vh;
 }
 
 ul {
@@ -18,13 +18,14 @@ ul li {
 }
 
 .navigation a {
-	font-size: 3vw;
+	font-size: 30px;
 	text-decoration: none;
+	color: white;
 }
 
 h1 {
-	font-size: 3.5vw;
+	font-size: 40px;
 	color: white;
-  display: flex;
+	display: flex;
 	justify-content: center;
 }
